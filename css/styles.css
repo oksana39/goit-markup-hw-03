@@ -101,7 +101,7 @@ img {
 
 .solution-container {
   background-color: #2e2f42;
-  padding-bottom: 188px;
+  padding: 188px 0 188px;
 }
 
 .solution-title {
@@ -111,7 +111,6 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-top: 188px;
   padding-bottom: 48px;
   max-width: 496px;
   margin: 0 auto;
@@ -128,8 +127,10 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
-  padding: 16px 32px;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .solution-btn:hover,
@@ -152,14 +153,13 @@ img {
   overflow: hidden;
 }
 
-.feature {
+.feature-container {
   background-color: #fff;
+  padding: 120px 0 120px;
 }
 .list-feature-container {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .list-item {
@@ -172,6 +172,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .feature-text {
@@ -181,8 +182,10 @@ img {
 }
 
 /* -----------section three team */
-.container-team-list .team {
+
+.team-container {
   background-color: #f4f4fd;
+  padding: 120px 0 120px;
 }
 .container-team-list {
   display: flex;
@@ -198,13 +201,12 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-div {
-  padding-top: 32;
-  padding-bottom: 32;
+  text-align: center;
+  padding: 32px 0 32px;
   border-radius: 0px 0px 4px 4px;
 }
 .team-title-foto {
@@ -214,7 +216,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .team-title-text {
   font-size: 16px;
@@ -229,13 +231,14 @@ img {
 }
 .team-images {
   margin: 0 auto;
-  margin-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* --------section four */
 
-.portfolio {
+.portfolio-container {
   background-color: #fff;
+  padding: 120px 0 120px;
 }
 
 .portfolio-container-list {
@@ -252,8 +255,8 @@ img {
 }
 
 .portfolio-div {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-title {
   color: #2e2f42;
@@ -263,8 +266,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 240px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-title-app {
@@ -273,7 +275,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -286,8 +288,7 @@ img {
 
 .container-footer {
   background: #2e2f42;
-  padding-top: 120px;
-}
+  padding: 100px 0 100px;
 
 .footer-link-logo {
   color: #4d5ae5;
@@ -298,7 +299,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: block;
-  padding-bottom: 17px;
+ margin-bottom: 16px;
+  display: inline-block
 }
 
 .footer-logo-part {
@@ -311,7 +313,5 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 100px;
   max-width: 264px;
-  margin-bottom: 100px;
-}
+  }
