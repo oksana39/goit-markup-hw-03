@@ -146,7 +146,7 @@ img {
   padding: 120px 0;
 }
 .feature-container {
-  padding: 120px 0 120px 0;
+  padding: 120px 0 120px;
 }
 
 .feature-title-hero {
@@ -242,7 +242,7 @@ img {
 .team-list {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100%-24px * 3) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-images {
