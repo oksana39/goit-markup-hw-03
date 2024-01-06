@@ -250,6 +250,10 @@ img {
 }
 
 /* --------section four */
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .portfolio-container {
   background-color: #fff;
